@@ -1,4 +1,8 @@
 
+Create and activate a virtualenv (probably in ~/venvs or ~/virtualenvs):
+
+    python3.6 -m venv django-tutorial
+    source django-tutorial/bin/activate
 
 Install dependencies:
 
