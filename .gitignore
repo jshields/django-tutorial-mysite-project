@@ -1,0 +1,4 @@
+__pycache__
+
+# don't save created polls in version control, make the app data fresh every time
+db.sqlite3
