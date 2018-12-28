@@ -6,3 +6,6 @@ pytz==2018.7
 # linters
 bandit
 pyflakes
+
+# dev
+ipython

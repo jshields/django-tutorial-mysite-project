@@ -1,3 +1,6 @@
+Following Django tutorial
+
+at step https://docs.djangoproject.com/en/2.1/intro/tutorial02/#introducing-the-django-admin
 
 Create and activate a virtualenv (probably in ~/venvs or ~/virtualenvs):
 
@@ -17,3 +20,6 @@ Confirm Django was installed:
 Run app:
 
     python manage.py runserver
+
+
+http://127.0.0.1:8000/polls/
