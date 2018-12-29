@@ -23,3 +23,9 @@ Run app:
 
 
 http://127.0.0.1:8000/polls/
+
+
+Since this is a totally fake example,
+User: admin
+Password: password
+http://127.0.0.1:8000/admin/
