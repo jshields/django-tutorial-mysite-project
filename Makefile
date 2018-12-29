@@ -1,3 +1,4 @@
+# (this is not from the django tutorial, added for convenience and personal reference)
 
 # start dev server (not for any production environment)
 start:
@@ -11,7 +12,6 @@ start_dev_public:
 # this command assumes that the migrations were generated the way we want by Django
 dbmigrate:
 	python manage.py makemigrations && python manage.py migrate
-
 
 check:
 	python manage.py check
