@@ -1,6 +1,7 @@
 Following Django tutorial
 
-at step https://docs.djangoproject.com/en/2.1/intro/tutorial02/#introducing-the-django-admin
+at step
+https://docs.djangoproject.com/en/2.1/intro/tutorial03/#a-shortcut-get-object-or-404
 
 Create and activate a virtualenv (probably in ~/venvs or ~/virtualenvs):
 
