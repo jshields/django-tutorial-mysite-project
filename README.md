@@ -1,7 +1,7 @@
 Following Django tutorial
 
 at step
-https://docs.djangoproject.com/en/2.1/intro/tutorial04/#use-generic-views-less-code-is-better
+https://docs.djangoproject.com/en/2.1/intro/tutorial05/#testing-our-new-view
 
 Create and activate a virtualenv (probably in ~/venvs or ~/virtualenvs):
 

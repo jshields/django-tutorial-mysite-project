@@ -19,5 +19,9 @@ check:
 lint:
 	pyflakes
 
+test:
+	python manage.py test
+# or to test a specific app: python manage.py test polls
+
 shell:
 	python manage.py shell -i ipython
