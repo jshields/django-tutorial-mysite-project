@@ -1,7 +1,9 @@
-Following Django tutorial
+# Django tutorial project
 
-at step
-https://docs.djangoproject.com/en/2.1/intro/tutorial07/#customize-the-admin-look-and-feel
+Tutorials 1-7
+Next tutorial: https://docs.djangoproject.com/en/2.1/intro/reusable-apps/
+
+## Running the app
 
 Create and activate a Python 3.6 virtualenv (probably in ~/venvs or ~/virtualenvs):
 
@@ -32,7 +34,7 @@ Password: password
 http://127.0.0.1:8000/admin/
 
 
-Adding objects programmatically rather than through admin interface:
+### Adding objects programmatically rather than through admin interface:
 
     python manage.py shell -i ipython
 
