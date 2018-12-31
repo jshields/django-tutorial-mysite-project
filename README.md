@@ -1,6 +1,7 @@
 # Django tutorial project
 
 Tutorials 1-7
+
 Next tutorial: https://docs.djangoproject.com/en/2.1/intro/reusable-apps/
 
 ## Running the app
