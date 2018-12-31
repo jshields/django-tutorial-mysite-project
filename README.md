@@ -3,20 +3,16 @@ Following Django tutorial
 at step
 https://docs.djangoproject.com/en/2.1/intro/tutorial07/#customize-the-admin-look-and-feel
 
-Create and activate a virtualenv (probably in ~/venvs or ~/virtualenvs):
+Create and activate a Python 3.6 virtualenv (probably in ~/venvs or ~/virtualenvs):
 
     python3.6 -m venv django-tutorial
     source django-tutorial/bin/activate
 
+(I used Python 3.6.7 but any 3.6.x should work)
+
 Install dependencies:
 
     pip install -r requirements.txt
-
-
-Confirm Django was installed:
-
-    python -m django --version
-
 
 Run app:
 
@@ -24,8 +20,6 @@ Run app:
 
 
 http://127.0.0.1:8000/polls/
-
-
 
 
 Remember to create admin user and add some questions when starting from a fresh database:

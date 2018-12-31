@@ -14,7 +14,7 @@ dbmigrate:
 	python manage.py makemigrations && python manage.py migrate
 
 check:
-	python manage.py check
+	python -m django --version && python manage.py check
 
 lint:
 	pyflakes
