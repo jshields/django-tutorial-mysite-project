@@ -1,7 +1,7 @@
 Following Django tutorial
 
 at step
-https://docs.djangoproject.com/en/2.1/intro/tutorial07/
+https://docs.djangoproject.com/en/2.1/intro/tutorial07/#customize-the-admin-look-and-feel
 
 Create and activate a virtualenv (probably in ~/venvs or ~/virtualenvs):
 
@@ -37,7 +37,8 @@ User: admin
 Password: password
 http://127.0.0.1:8000/admin/
 
-As of current progress in tutorial, choices need to be added manually using the object API:
+
+Adding objects programmatically rather than through admin interface:
 
     python manage.py shell -i ipython
 
