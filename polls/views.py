@@ -18,7 +18,6 @@ class IndexView(generic.ListView):
         Return the last five published questions (not including those set to be
         published in the future).
         """
-        # NOTE doesn't prevent accessing future question directly by ID
         return Question.objects.filter(
             pub_date__lte=timezone.now()
         ).order_by('-pub_date')[:5]
@@ -28,8 +27,16 @@ class DetailView(generic.DetailView):
     model = Question
     template_name = 'polls/detail.html'
 
+    def get_queryset(self):
+        """
+        Excludes any questions that aren't published yet.
+        """
+        return Question.objects.filter(pub_date__lte=timezone.now())
+
 
 class ResultsView(generic.DetailView):
+    # TODO get_queryset method to ResultsView and create a new test class for that view
+    # https://docs.djangoproject.com/en/2.1/intro/tutorial05/#ideas-for-more-tests
     model = Question
     template_name = 'polls/results.html'
 
