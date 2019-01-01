@@ -9,3 +9,6 @@ pyflakes
 
 # dev
 ipython
+
+# build
+setuptools

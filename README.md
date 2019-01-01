@@ -1,7 +1,11 @@
 # Django tutorial project
 
-Tutorials 1-7
-Next tutorial: https://docs.djangoproject.com/en/2.1/intro/reusable-apps/
+Tutorials 1-7 and the followup
+https://docs.djangoproject.com/en/2.1/intro/
+
+
+on step
+https://docs.djangoproject.com/en/2.1/intro/reusable-apps/#packaging-your-app
 
 ## Running the app
 
