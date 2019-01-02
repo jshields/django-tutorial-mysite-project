@@ -4,10 +4,6 @@
 start:
 	python manage.py runserver
 
-# Run dev server listening to all IPs. Don't do this on untrusted networks.
-start_dev_public:
-	python manage.py runserver 0:8000
-
 # generate new migrations for model changes and run them
 # this command assumes that the migrations were generated the way we want by Django
 dbmigrate:
@@ -16,12 +12,11 @@ dbmigrate:
 check:
 	python -m django --version && python manage.py check
 
-lint:
-	pyflakes
-
 test:
-	python manage.py test
-# or to test a specific app: python manage.py test polls
+	# python manage.py test
+	# to find the tests for the polls app from this Django project, we must specify like this:
+	python manage.py test polls
+	# TODO there must be a better way, our project should generally assume that the polls app will handle its own testing?
 
 shell:
 	python manage.py shell -i ipython
