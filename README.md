@@ -1,12 +1,8 @@
 # Django tutorial project
 
 
-Tutorials 1-7 and the followup
+Tutorials 1-7 and the reusable apps tutorial:
 https://docs.djangoproject.com/en/2.1/intro/
-
-
-on step
-https://docs.djangoproject.com/en/2.1/intro/reusable-apps/#packaging-your-app
 
 
 ## Running the app
@@ -18,7 +14,7 @@ Create and activate a Python 3.6 virtualenv (probably in ~/venvs or ~/virtualenv
 
 (I used Python 3.6.7 but any 3.6.x should work)
 
-Install dependencies:
+Install dependencies (this includes the polls app itself, used by the mysite project):
 
     pip install -r requirements.txt
 
