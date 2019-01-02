@@ -1,5 +1,10 @@
 Django==2.1.4
 
+# the polls app from tutorials 1-7,
+# packaged separately according to the final "How to write reusable apps" tutorial.
+# It would be silly to actually put this on PyPI, so install external by GitHub URL
+-e git@github.com:jshields/django-tutorial-polls-app.git
+
 # dependency of Django
 pytz==2018.7
 
@@ -9,6 +14,3 @@ pyflakes
 
 # dev
 ipython
-
-# build
-setuptools
